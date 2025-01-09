@@ -31,12 +31,8 @@ cargo run --release -- CVE-2021-44228 CVE-2024–21538 CVE-2020-2883
 ```
 
 4. **Results**
-On its first run, the program will generate two files: known_exploited_vulnerabilities.json, which contains the current KEV vulnerabilities database, and CVE-Name.json, which stores the results gathered from CVE, EPSS, and KEV data.
-
-On subsequent runs, the program will check if the KEV database file is older than one day. If it is, the program will download the latest version of the data.
-
-Additionally, the program will display the results in the console.
+On its first run, the program will generate two files: known_exploited_vulnerabilities.json, which contains the current KEV vulnerabilities database, and CVE-Name.json, which stores the results gathered from CVE, EPSS, and KEV data. On subsequent runs, the program will check if the KEV database file is older than one day. If it is, the program will download the latest version of the data. Additionally, the program will display the results in the console.
 
 5. **License**
-This project is licensed under the GNU GENERAL PUBLIC LICENSE
+This project is licensed under the GNU GENERAL PUBLIC LICENSE. [Link here|https://raw.githubusercontent.com/krisinfosec/slowest_cve_aggregator/refs/heads/main/LICENSE]
 
